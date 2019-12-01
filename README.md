@@ -15,8 +15,10 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ```
 
-Esta es una herramienta que automatiza el método CPM, recibiendo como entrada una tabla de actividades en formato .csv para calcular el camino crítico, actividades críticas y duración mínima del proyecto/evento
-
+This is a tool that automates the CPM method, receiving as input a table of activities in ```.csv``` format to calculate the critical path, critical activities and minimum project / event duration.
+```
+Index, Activity, Description, Duration, Dependencies
+```
 
 ## Refuting
 
