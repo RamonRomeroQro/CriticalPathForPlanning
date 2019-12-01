@@ -1,4 +1,4 @@
-# CPM_Automated
+# Critical Path for Events
 ```
 Copyright 2019 
 © Ramon Romero   @RamonRomeroQro
@@ -33,7 +33,7 @@ Esta es una herramienta que automatiza el método CPM, recibiendo como entrada u
 
 ```
 
-
+```
 29  8   27  29  8   26
 27  3   25  26  5   25          --  2   ++
 25  8   23  25  5   24
@@ -42,7 +42,7 @@ Esta es una herramienta que automatiza el método CPM, recibiendo como entrada u
 11  1   8   13  12  8           --  11   ++
                                     61+15 = 76 -> 76>61
 
-
+```
 ## Install
 
 ``` bash
@@ -54,11 +54,22 @@ $ pip3 install -r requeriments.txt
 
 
 ```
+## CLI
+
+``` bash
+
+$ python3 command.py < <TEST_FILE>
+
+
+```
 
 
 ## Build
 
+Generated on ``` ./dist/```
+
 ```
 $ ./build_mac.sh
 ```
+
 
