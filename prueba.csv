@@ -1,0 +1,30 @@
+Num,Actividad,Descripci�n,Duraci�n,Dependencias
+1,Seleccionar fecha,8,0
+2,Visitar posibles salones,21,1
+3,Explorar opciones de banquetes,14,1
+4,Explorar opciones de luz y sonido,14,1
+5,Firmar contrato con salon y dar anticipo,3,2 3 4
+6,Firmar contrato con banquetes y dar anticipo,3,5
+7,Firmar contrato con luz y sonido y dar anticipo,3,5
+8,Hacer scouting para medidas y recolectar informacion,2,6 7
+9,Seleccionar centros de mesa,7,8
+10,Seleccionar servicios medicos / ambulancia,2,8
+11,Seleccionar planta de luz,1,8
+12,Seleccionar planta cabina de fotos,4,8
+13,Seleccionar decoracion,12,8
+14,Seleccionar Mariachi,3,8
+15,Seleccionar servicio de Valet Parking,1,8
+16,Seleccionar pantuflas,9,8
+17,Seleccionar termos,7,8
+18,Seleccionar fotografos,3,8
+19,Seleccionar servicios de seguridad,4,8
+20,Seleccionar musica de amenizaci�n,10,8
+21,Seleccionar boletos o invitaciones,6,8
+22,Pagar anticipos de proveedores,8,9 10 11 12 13 14 15 16 17 18 19 20 21
+23,Acordar horarios de montaje,3,22
+24,Revisar horarios de servicio con cada proveedor,5,22
+25,Recolectar dinero total de boletos,8,23 24
+26,Liquidar salon,5,25
+27,Liquidar banquetes,3,25
+28,Liquidar luz y sonido,2,25
+29,Liquidar pago de proveedores faltantes,8,26 27 29
