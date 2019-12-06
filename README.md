@@ -1,4 +1,4 @@
-# Critical Path for Events
+# Critical Path for Planning Events
 ```
 Copyright 2019 
 © Ramon Romero   @RamonRomeroQro
@@ -20,15 +20,8 @@ This is a tool that automates the CPM method, receiving as input a table of acti
 Index, Activity, Description, Duration, Dependencies
 ```
 
-## Refuting
 
-### https://github.com/pacomonroy/CPM_Automated
-```
-['1', '3', '5', '6', '8', '13', '22', '24', '25', '26', '29']
-
->>> 76
-```
-### reach (UCS-Dijkstra)
+### Reach Method (UCS-Dijkstra)
 ```
 ['1', '3', '5', '6', '8', '11', '22', '23', '25', '27', '29']
 >>> 61
