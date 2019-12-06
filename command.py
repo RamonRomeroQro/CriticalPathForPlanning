@@ -18,6 +18,7 @@ from queue import PriorityQueue
 
 
 class Node:
+    ''' Data structure for graph generation'''
     def __init__(self, a0, a1, a2, a3):
         self.id = a0
         self.descripcion = a1
@@ -73,21 +74,8 @@ while q:
         path.append(node.id)
         path = path[::-1]
         print('reach')
-
         print(path)
-        pr = 0
-        for r in path:
-            # print(graph[r].duracion)
-            pr += graph[r].duracion
-        print('>>>', pr, len_node)
-
-        paco = "1,3,5,6,8,13,22,24,25,26,29".split(',')
-        print(paco)
-        pc = 0
-        for i in paco:
-            # print(graph[i].duracion)
-            pc += graph[i].duracion
-        print('>>>', pc)
+        print('>>>',  len_node)
         break
     else:
         for dependencia in node.dependencias:

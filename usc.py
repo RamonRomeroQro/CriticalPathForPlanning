@@ -18,6 +18,7 @@ from queue import PriorityQueue
 from Node import Node
 
 class UniformCostSearch:
+    ''' UCS Algortithm '''
     def __init__(self, start, goal):
         self.goal = start
         self.start = goal
@@ -48,22 +49,6 @@ class UniformCostSearch:
             if node is self.graph[self.goal]:
                 path.append(node.id)
                 path = path[::-1]
-                print('reach')
-
-                print(path)
-                pr = 0
-                for r in path:
-                    # print(graph[r].duracion)
-                    pr += self.graph[r].duracion
-                print('>>>', pr, len_node)
-
-                paco = "1,3,5,6,8,13,22,24,25,26,29".split(',')
-                print(paco)
-                pc = 0
-                for i in paco:
-                    # print(graph[i].duracion)
-                    pc += self.graph[i].duracion
-                print('>>>', pc)
                 return path, len_node
                 #break
             else:

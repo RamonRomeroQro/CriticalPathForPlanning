@@ -19,6 +19,10 @@ from usc import UniformCostSearch
 from tkinter.messagebox import *
 from tkinter.filedialog import askopenfilename
 
+
+'''
+Graphical User Interface with tkinter
+'''
 def show_answer():
     search = UniformCostSearch(str(start_input.get()), str(goal_input.get()))
     path = str(blank.get())
